@@ -6,7 +6,7 @@ Supports both **click** and **hover** triggers, and works with multiple dropdown
 ## Installation
 
 ```bash
-npm install dropdown-menus
+npm install fromscode-dropdown-menus
 ```
 
 ## Usage
