@@ -4,4 +4,21 @@ body {
   width: 100vw;
   align-items: center;
   justify-content: center;
+  gap: 30px;
+}
+
+.none {
+  display: none;
+}
+
+.dropdown-menu {
+  background-color: #cfd0d4;
+  border-radius: 5px;
+  padding: 5px 10px;
+  position: absolute;
+}
+
+ul, li {
+  padding: 0px;
+  list-style-type: none;
 }
