@@ -26,6 +26,10 @@ npm install fromscode-dropdown-menus
 </body>
 ```
 
+**IMPORTANT: The button and the menu should be inside a separate parent container, if you are putting them inside body or header or navbar, unexpected behavior might occur.**
+
+**For consistency, every button and menu should be bundled inside one separate container**
+
 ### 2. Add this style:
 
 ```css
