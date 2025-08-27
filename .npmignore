@@ -1,0 +1,7 @@
+src/
+*config*
+*prettier*
+*eslint*
+*webpack*
+*tgz
+*html

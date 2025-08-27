@@ -26,10 +26,19 @@ npm install fromscode-dropdown-menus
 </body>
 ```
 
-### 2. Initialize dropdown in JS:
+### 2. Add this style:
+
+```css
+.none {
+  display: none;
+}
+```
+
+### 3. Initialize dropdown in JS:
 
 ```js
 import initDropDown from "dropdown-menus"; // import
+import './styles/styles.css' // or wherever you defined .none style
 
 const btn = document.querySelector(".dropdown-button");
 const menu = document.querySelector(".dropdown-menu");
@@ -60,7 +69,8 @@ Example CSS:
 
 ```css
 .none {
-  display: none;
+  /* display: none; */
+  opacity: 0.1;
 }
 ```
 

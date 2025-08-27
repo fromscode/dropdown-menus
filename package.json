@@ -2,7 +2,7 @@
   "name": "fromscode-dropdown-menus",
   "version": "1.0.0",
   "description": "feel free to use",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "clean": "rm -rf dist",
     "dev": "webpack serve --open --config webpack.dev.js",

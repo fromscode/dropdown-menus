@@ -8,7 +8,8 @@ body {
 }
 
 .none {
-  display: none;
+  /* display: none; */
+  opacity: 0.1;
 }
 
 .dropdown-menu {
